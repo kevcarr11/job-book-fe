@@ -41,7 +41,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "CI= react-scripts build",
     "test": "jest --watch",
     "eject": "craco eject",
     "lint": "tslint --project",
